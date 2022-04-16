@@ -19,7 +19,7 @@ Macにログイン時、自動でこのスクリプトを実行させる事が�
 3. 追加されたアクションのシェルが `/bin/bash` になっている事を確認します
 4. シェルの内容は [open_recent_csp_file.sh](https://github.com/gokuge/open-recent-csp-file/blob/main/open_recent_csp_file.sh) の `#!/bin/bash` 以外をコピペします
 5. `dir_path="YOUR CLIP STUDIO PAINT FILE DIR PATH"` のダブルクォーテーション内をClipStudioPaintで作成したファイルを保存しているディレクトリのパスに書き換えます
-  - 例: `/Users/gokuge/Pictures`
+  - 例: `dir_path="/Users/gokuge/Pictures"`
   - 指定したディレクトリ内を再帰的に検索します
 6. 保存します。名前はご自由に、フォーマットはアプリケーションのままにして下さい
 7. システム環境設定のユーザとグループからログイン項目に6で作成したアプリケーションを追加し、ログイン時に実行させるようにします
